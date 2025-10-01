@@ -4,7 +4,7 @@ import KeepRewards from "./KeepRewards";
 
 const Cash = () => {
   return (
-    <section className=" min-h-screen flex flex-col items-center p-8 bg-[#f3f1e7]">
+    <section className=" min-h-screen flex flex-col items-center pt-8 bg-[#f3f1e7]">
       {/* Header */}
       <h1 className="text-2xl mb-3 font-semibold text-gray-800">
         Cash or card, you earn Stars
