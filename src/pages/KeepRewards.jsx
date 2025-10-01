@@ -5,7 +5,7 @@ const KeepRewards = () => {
     <section
       className="w-full rounded-none bg-cover bg-center flex flex-col justify-center items-center text-center text-white py-20 px-6"
       style={{
-        backgroundImage: "url('src/assets/BG.png')", // replace with your actual background
+        backgroundImage: "url('/assets/BG.png')", // replace with your actual background
       }}
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
