@@ -1,8 +1,9 @@
 import React from 'react'
-import CoffeeImg from 'src/assets/Main Coffee.png'
+
 const Hero = () => {
   return (
     <section className='flex flex-col lg:flex-row max-w-screen min-h-screen px-6 md:px-12 lg:px-20 py-12 justify-between items-center gap-10'>
+    
       <div className='flex flex-col gap-6 w-full lg:w-1/2 text-center lg:text-left'>
         <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800'>
           It's not just Coffee
@@ -23,8 +24,8 @@ const Hero = () => {
 
       <div className='w-full lg:w-1/2 flex justify-center'>
         <img 
-          src={CoffeeImg} 
-          alt="coffee-img"
+          src="/assets/main-coffee.png" 
+          alt="coffee-img" 
           className='max-w-full h-auto object-contain'
         />
       </div>

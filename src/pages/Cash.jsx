@@ -1,13 +1,10 @@
 import { Star } from "lucide-react";
 import React from "react";
 import KeepRewards from "./KeepRewards";
-import A1 from "src/assets/1A.png";
-import B1 from "src/assets/1B.png";
-import A2 from "src/assets/2A.png";
-import B2 from "src/assets/2B.png";
+
 const Cash = () => {
   return (
-    <section className=" min-h-screen flex flex-col items-center pt-8 bg-[#f3f1e7]">
+    <section className=" min-h-screen flex flex-col items-center p-8 bg-[#f3f1e7]">
       {/* Header */}
       <h1 className="text-2xl mb-3 font-semibold text-gray-800">
         Cash or card, you earn Stars
@@ -37,7 +34,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src={A1}
+                src="/assets/1A.png"
                 className="w-full h-full object-contain"
                 alt="Scan and pay"
               />
@@ -54,7 +51,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src={B1}
+                src="/assets/1B.png"
                 className="w-full h-full object-contain"
                 alt="Save payment in app"
               />
@@ -89,7 +86,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src={A2}
+                src="/assets/2A.png"
                 className="w-full h-full object-contain"
                 alt="Preload money"
               />
@@ -106,7 +103,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src={B2}
+                src="/assets/2B.png"
                 className="w-full h-full object-contain"
                 alt="Auto reload"
               />
