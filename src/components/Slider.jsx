@@ -1,31 +1,34 @@
 import React, { useState } from "react";
 import { Star } from "lucide-react";
-
+import S1 from "src/assets/s1.webp";
+import S2 from "src/assets/s2.webp";
+import S3 from "src/assets/s3.webp";
+import S4 from "src/assets/s4.webp";
 const slides = [
   {
     stars: 1,
-    img: "src/assets/s1.webp",
+    img: S1,
     title: "Customize your drink",
     description:
       "Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.",
   },
   {
     stars: 2,
-    img: "src/assets/s2.webp",
+    img: S2,
     title: "Earn rewards faster",
     description:
       "Get closer to free drinks and food by collecting Stars with every purchase.",
   },
   {
     stars: 3,
-    img: "src/assets/s3.webp",
+    img: S3,
     title: "Exclusive offers",
     description:
       "Unlock members-only offers and promotions available only through the app.",
   },
   {
     stars: 4,
-    img: "src/assets/s4.webp",
+    img: S4,
     title: "Free birthday treat",
     description:
       "Celebrate your birthday with a free drink or food item on us.",

@@ -1,7 +1,10 @@
 import { Star } from "lucide-react";
 import React from "react";
 import KeepRewards from "./KeepRewards";
-
+import A1 from "src/assets/1A.png";
+import B1 from "src/assets/1B.png";
+import A2 from "src/assets/2A.png";
+import B2 from "src/assets/2B.png";
 const Cash = () => {
   return (
     <section className=" min-h-screen flex flex-col items-center pt-8 bg-[#f3f1e7]">
@@ -34,7 +37,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src="src/assets/1A.png"
+                src={A1}
                 className="w-full h-full object-contain"
                 alt="Scan and pay"
               />
@@ -51,7 +54,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src="src/assets/1B.png"
+                src={B1}
                 className="w-full h-full object-contain"
                 alt="Save payment in app"
               />
@@ -86,7 +89,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src="src/assets/2A.png"
+                src={A2}
                 className="w-full h-full object-contain"
                 alt="Preload money"
               />
@@ -103,7 +106,7 @@ const Cash = () => {
           <div className="flex items-start gap-4">
             <div className="h-32 w-32 flex-shrink-0">
               <img
-                src="src/assets/2B.png"
+                src={B2}
                 className="w-full h-full object-contain"
                 alt="Auto reload"
               />

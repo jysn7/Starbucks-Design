@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CoffeeImg from 'src/assets/Main Coffee.png'
 const Hero = () => {
   return (
     <section className='flex flex-col lg:flex-row max-w-screen min-h-screen px-6 md:px-12 lg:px-20 py-12 justify-between items-center gap-10'>
@@ -23,8 +23,8 @@ const Hero = () => {
 
       <div className='w-full lg:w-1/2 flex justify-center'>
         <img 
-          src="src/assets/Main Coffee.png" 
-          alt="coffee-img" 
+          src={CoffeeImg} 
+          alt="coffee-img"
           className='max-w-full h-auto object-contain'
         />
       </div>

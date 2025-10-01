@@ -1,10 +1,12 @@
 import React from "react";
-
+import R1 from "src/assets/r1.webp";
+import R2 from "src/assets/r2.webp";
+import R3 from "src/assets/r3.webp";
 const steps = [
   {
     number: 1,
     title: "Fun freebies",
-    img: "src/assets/r1.webp",
+    img: R1,
     description: (
       <>
         Not only can you earn free coffee, look forward to a birthday treat
@@ -16,7 +18,7 @@ const steps = [
   {
     number: 2,
     title: "Order and pay how you’d like",
-    img: "src/assets/r2.webp",
+    img: R2,
     description: (
       <>
         Use cash, credit/debit card or save some time and pay right through the
@@ -27,7 +29,7 @@ const steps = [
   {
     number: 3,
     title: "Earn Stars, get Rewards",
-    img: "src/assets/r3.webp",
+    img: R3,
     description: (
       <>
         As you earn Stars, you can redeem them for Rewards—like free food,
